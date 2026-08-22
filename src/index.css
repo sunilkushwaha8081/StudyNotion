@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Light Mode Overrides */
+html.light-mode body {
+  background-color: #f8fafc !important;
+  color: #0f172a !important;
+}
+
+html.light-mode .bg-richblack-900,
+html.light-mode .bg-richblack-800 {
+  background-color: #ffffff !important;
+  color: #0f172a !important;
+  border-color: #e2e8f0 !important;
+}
+
+html.light-mode .text-richblack-5,
+html.light-mode .text-richblack-25,
+html.light-mode .text-richblack-50 {
+  color: #0f172a !important;
+}
+
+html.light-mode .text-richblack-100,
+html.light-mode .text-richblack-200,
+html.light-mode .text-richblack-300 {
+  color: #475569 !important;
+}
+
